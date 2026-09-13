@@ -1,0 +1,21 @@
+@import "katex/dist/katex.min.css";
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: "Public Sans", sans-serif;
+  background-color: #0f1726;
+  color: #f6f4ee;
+}
+
+h1, h2, h3, .font-display {
+  font-family: "Fraunces", serif;
+}
+
+/* subtle focus ring, visible for keyboard nav — never removed */
+:focus-visible {
+  outline: 2px solid #c9a227;
+  outline-offset: 2px;
+}
